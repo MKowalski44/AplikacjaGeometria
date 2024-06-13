@@ -1,0 +1,28 @@
+<UserControl x:Class="AplikacjaGeometria.Widoki.WidokTrojkat"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <StackPanel>
+            <!-- Etykieta dla boku A trojkata -->
+            <Label Content="Bok A:"/>
+            <!-- Pole tekstowe do wprowadzenia boku A -->
+            <TextBox x:Name="BokAInput"/>
+            <!-- Etykieta dla boku B trojkata -->
+            <Label Content="Bok B:"/>
+            <!-- Pole tekstowe do wprowadzenia boku B -->
+            <TextBox x:Name="BokBInput"/>
+            <!-- Etykieta dla podstawy trojkata -->
+            <Label Content="Podstawa:"/>
+            <!-- Pole tekstowe do wprowadzenia podstawy -->
+            <TextBox x:Name="PodstawaInput"/>
+            <!-- Etykieta dla wysokosci trojkata -->
+            <Label Content="Wysokosc:"/>
+            <!-- Pole tekstowe do wprowadzenia wysokosci -->
+            <TextBox x:Name="WysokoscInput"/>
+            <!-- Przycisk do obliczenia -->
+            <Button Content="Oblicz" Click="Oblicz_Click"/>
+            <!-- Etykieta do wyswietlenia wyniku -->
+            <Label x:Name="WynikLabel"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

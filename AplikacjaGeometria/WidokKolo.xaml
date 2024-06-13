@@ -1,0 +1,16 @@
+<UserControl x:Class="AplikacjaGeometria.Widoki.WidokKolo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <StackPanel>
+            <!-- Etykieta dla promienia kola -->
+            <Label Content="Promien:"/>
+            <!-- Pole tekstowe do wprowadzenia promienia -->
+            <TextBox x:Name="PromienInput"/>
+            <!-- Przycisk do obliczenia -->
+            <Button Content="Oblicz" Click="Oblicz_Click"/>
+            <!-- Etykieta do wyswietlenia wyniku -->
+            <Label x:Name="WynikLabel"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
